@@ -239,6 +239,37 @@ img {
 .team-bottom {
   padding: 32px 0px;
 }
+
+.icon-container {
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.socialmedia-icon-item {
+  width: 40px;
+  height: 40px;
+  fill: #f4f4fd;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
 .team-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -258,6 +289,8 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-member-name {
   font-weight: 500;
