@@ -150,6 +150,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 .main-title {
   font-weight: 700;
