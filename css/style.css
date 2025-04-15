@@ -383,7 +383,7 @@ img {
   width: 100%;
 }
 
-.portfolio-images-description:hover {
+.portfolio-card:hover .portfolio-images-description {
   transform: translateY(0%);
 }
 
